@@ -1,0 +1,16 @@
+{
+  "name": "shawandpartnersapi",
+  "version": "1.0.0",
+  "description": "Api for consuming github users and repo's info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://marcelopbg-ae@bitbucket.org/marcelopbg-ae/shawandpartnersapi.git"
+  },
+  "author": "Marcelo P. B. Guimarães",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/marcelopbg-ae/shawandpartnersapi#readme"
+}
