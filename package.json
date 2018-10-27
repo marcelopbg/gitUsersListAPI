@@ -4,7 +4,7 @@
   "description": "Api for consuming github users and repo's info",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
