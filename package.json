@@ -4,7 +4,7 @@
   "description": "Api for consuming github users and repo's info",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec node index.js"
   },
   "repository": {
     "type": "git",
@@ -12,5 +12,11 @@
   },
   "author": "Marcelo P. B. Guimarães",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/marcelopbg-ae/shawandpartnersapi#readme"
+  "homepage": "https://bitbucket.org/marcelopbg-ae/shawandpartnersapi#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.5"
+  }
 }
