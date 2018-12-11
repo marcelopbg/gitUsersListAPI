@@ -1,5 +1,5 @@
 {
-  "name": "shawandpartnersapi",
+  "name": "gituserspi",
   "version": "1.0.0",
   "description": "Api for consuming github users and repo's info",
   "main": "index.js",
@@ -16,7 +16,6 @@
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
-    "express": "^4.16.4",
-    "nodemon": "^1.18.5"
+    "express": "^4.16.4"
   }
 }
