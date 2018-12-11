@@ -13,7 +13,7 @@ npm install
 
 ### Start api
 ```
-npm run serve
+npm start
 ```
 
 ### Routes
