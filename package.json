@@ -2,9 +2,9 @@
   "name": "gituserspi",
   "version": "1.0.0",
   "description": "Api for consuming github users and repo's info",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
