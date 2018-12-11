@@ -20,8 +20,8 @@ app.use((req, res, next) => {
 });
 app.use(apiRoutes)
 
-app.listen(8080, function(err){
-  if(!err)
-  console.log("Site is live"); else console.log(err)
+const PORT = process.env.PORT || 3000;
 
+app.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
 });
